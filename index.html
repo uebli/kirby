@@ -213,9 +213,25 @@ border-radius: 0px;
       <div class="header">
       Kirby´s World★･ﾟ
       </div>
+
+
+       <!--MENÚ CON href -->> 
+
+
       <div class="nav">★ 
-        <a href="">Habilidades</a> | <a href="">Juegos destacados</a> | <a href="">Datos curiosos</a> | <a href="">Personajes destacados</a> | <a href="">Videos</a> | <a href="">Cronología básica de juegos</a> | <a href="">Extras</a> |★
+        <a href="javascript:void(0);" onclick="toggleHabilidades()">Habilidades</a> | 
+        <a href="javascript:void(0);" onclick="toggleJuegos()">Juegos destacados</a> |
+        <a href="javascript:void(0);" onclick="toggleDatos()">Datos curiosos</a> |
+        <a href="javascript:void(0);" onclick="togglePersonajes()">Personajes destacados</a> |
+        <a href="javascript:void(0);" onclick="toggleVideos()">Videos</a> |
+        <a href="javascript:void(0);" onclick="toggleCronologia()">Cronología básica de juegos</a> |
+        <a href="javascript:void(0);" onclick="toggleExtras()">Extras</a> |
+       
+              
       </div>
+
+     <!--CONTENIDO PRINCIPAL -->
+
       <div class="blog">
                 <h1>¿Quién es Kirby?</h1>
         <p> <img src="https://www.icegif.com/wp-content/uploads/2023/12/icegif-700.gif" class="icon"></p>
@@ -223,14 +239,145 @@ border-radius: 0px;
       <p>Kirby es un adorable héroe rosado creado por Nintendo, que puede inhalar enemigos y copiar sus poderes. Desde su creación en 1992 por Masahiro Sakurai, Kirby ha protagonizado muchos juegos y es uno de los personajes más queridos del mundo de los videojuegos</p>
               <h2>Historia</h2>
               <p>Kirby fue creado para el juego Kirby's Dream Land, lanzado en 1992 para Game Boy. Su diseño simple y redondo fue hecho para facilitar la animación. Desde entonces, Kirby ha evolucionado y aparecido en consolas desde Game Boy hasta Nintendo Switch, con muchos juegos y aventuras que lo han convertido en un ícono.</p>
+      
 
+      <!-- SELECCIÓN HABILIDADES-->
+
+
+       <div id="habilidades" style="display: none;">
+        <h2>Habilidades</h2>
+        <img src="https://pa1.aminoapps.com/7170/175e213e01703cb37e4692132e9dd446c03012e8r1-500-332_hq.gif" alt="Kirby habilidades" style="width: 120px; margin-bottom: 10px;">
+        <p> Inhalar: Kirby puede absorber enemigos y objetos usando su boca.<br>
+          Copiar habilidades: Al inhalar a ciertos enemigos, Kirby obtiene sus poderes, como fuego, espada, hielo, y más.<br>
+          Modo boca llena: Puede inhalar objetos grandes, transformándose y usando poderes especiales.<br>
+          Dormir: En algunos juegos, Kirby puede usar el sueño como una habilidad defensiva.</p> 
+        <img src="https://www.milenio.com/uploads/media/2022/04/29/kirby-3.jpg" alt="Kirby habilidades" style="width: 120px; margin-bottom: 10px;">
       </div>
+
+      <div id="juegos" style="display: none;">
+       <h2>Juegos destacados</h2>
+       <img src="https://pa1.aminoapps.com/7838/351c729e491f43199c824c51670002e7f4ca6acbr1-500-298_hq.gif" alt="Kirby habilidades" style="width: 120px; margin-bottom: 10px;">
+       <p> Kirby’s Dream Land (1992), Kirby Super Star, Kirby 64: The Crystal Shards, Kirby’s Epic Yarn, y Kirby and the Forgotten Land (2022) son algunos de los más queridos por los fans por su jugabilidad y creatividad.</p>
+      </div>
+
+      <div id="datos" style="display: none;">
+       <h2>Datos curiosos</h2>
+       <img src="https://pa1.aminoapps.com/7664/0318b97eb5b850787cadd06deb20fbf4ad988c56r1-480-360_hq.gif" alt="Kirby habilidades" style="width: 120px; margin-bottom: 10px;">
+       <img src="https://www.milenio.com/uploads/media/2022/04/29/kirby-4.jpg" alt="Kirby habilidades" style="width: 120px; margin-bottom: 10px;">
+      <p> Kirby fue originalmente una figura de prueba. Su forma redonda y color rosa fueron elecciones del creador Masahiro Sakurai. También ha aparecido en más de 30 juegos, ¡y hasta tiene su propia serie animada!
+      </p>
+      </div>
+
+      <div id="personajes" style="display: none;">
+        <h2>Personajes destacados</h2>
+        <img src="https://i.pinimg.com/originals/09/7f/14/097f14e8fafd2887a7f2d8c9709667af.gif" alt="Kirby habilidades" style="width: 120px; margin-bottom: 10px;">
+       <p> Entre los más famosos están: Meta Knight (misterioso guerrero), King Dedede (el eterno rival), Bandana Waddle Dee (el leal compañero) y Gooey (el amigable alienígena gelatinoso).
+      </p>
+      </div>
+
+
+      <div id="videos" style="display: none;">
+       <h2>Videos</h2>
+       <img src="https://i.pinimg.com/originals/3e/e0/ca/3ee0caca3db9eae16971954e876ed014.gif" alt="Kirby habilidades" style="width: 120px; margin-bottom: 10px;">
+      <p>  Mira los tráilers oficiales de los juegos de Kirby en el canal de YouTube de Nintendo. También hay speedruns, videos fanmade y análisis de la historia de cada juego.
+      </p>
+      </div>
+
+
+      <div id="cronologia" style="display: none;">
+        <h2>Cronología básica de juegos</h2>
+        <img src="https://i.pinimg.com/originals/b0/d3/72/b0d3728ddd1616ee3903525291f3be60.gif" alt="Kirby habilidades" style="width: 120px; margin-bottom: 10px;">
+        <p>
+        1992: Kirby's Dream Land<br>
+        1993: Kirby's Adventure<br>
+        1996: Kirby Super Star<br>
+        2000: Kirby 64: The Crystal Shards<br>
+        2002: Kirby: Nightmare in Dream Land<br>
+        2004: Kirby & the Amazing Mirror<br>
+        2011: Return to Dream Land<br>
+        2014: Kirby:Triple Deluxe
+        2016: Kirby: Planet Robobot
+        2022: kirby and The Forgotten Land
+      <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQMgzn_WAZKo2X0LcEBfudr_vCZWwNOpL7NIPtK1J5EJNBjGNSq" alt="Kirby habilidades" style="width: 120px; margin-bottom: 10px;">
+        </p>
+        </div>
+
+
+        <div id="extras" style="display: none;">
+          <h2>Extras</h2>
+          <img src="https://i.pinimg.com/originals/b6/8a/6c/b68a6c66727b6a702e0979fd324d588b.gif" alt="Kirby habilidades" style="width: 120px; margin-bottom: 10px;">
+           <p> <img src="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://kirby.nintendo.com/&ved=2ahUKEwjmrr3-ipeOAxXmRDABHaP0DdIQFnoECCIQAQ&usg=AOvVaw0Bchjsbd3cUU06clxs3HuJ"></p>
+
+          <p> Aquí podrás descargar fondos de pantalla, ver fanarts de la comunidad, y participar en concursos especiales del mundo de Kirby. ¡Muy pronto!
+          </p>
+        </div>
+
+        <!-- PIE DE PÁGINA -->
+
+      
       <div class="footer">
         <i>andy layout by <a href="https://cinni.net" target="_blank">uebli</a> 2025</i>
       </div>
     </div>
   </div>
 </center>
-
+<script>
+  function toggleHabilidades() {
+    var x = document.getElementById("habilidades");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function toggleJuegos() {
+    var x = document.getElementById("juegos");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    } 
+  }
+  function toggleDatos() {
+    var x = document.getElementById("datos");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    } 
+  }
+  function togglePersonajes() {
+    var x = document.getElementById("personajes");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    } 
+  }
+  function toggleVideos() {
+    var x = document.getElementById("videos");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    } 
+  }
+  function toggleCronologia() {
+    var x = document.getElementById("cronologia");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    } 
+  }
+  function toggleExtras() {
+    var x = document.getElementById("extras");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    } 
+  }
+</script>
   </body>
 </html>
